@@ -1,0 +1,1 @@
+export const FLY = "https://uvic-api.fly.dev"
