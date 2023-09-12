@@ -1,3 +1,7 @@
+This is an in progress rewrite of [Vikelabs/StudySpaceFinder](https;//github.com/vikelabs/studyspacefinder) in NextJS, in order to finally move away from create-react-app into something more modern. This also switches to tailwind for css
+
+<hr/>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
