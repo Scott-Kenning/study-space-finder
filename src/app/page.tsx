@@ -27,9 +27,9 @@ export default function Home() {
     ) || [];
 
   return (
-    <main className="w-screen min-h-screen bg-neutral-300">
+    <main className="max-w-screen min-h-screen bg-neutral-300 overflow-x-none">
       <Header />
-      <div className="py-16 flex flex-col items-center">
+      <div className="py-16 px-[15%] flex flex-col items-center">
         <div className="p-4">
           <input
             type="text"
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         )}
         {!loading && filteredBuildings && (
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto ">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl">
             {filteredBuildings.map((building: Building, index: number) => (
               <div key={index}>
                 <BuildingCard building={building} />
